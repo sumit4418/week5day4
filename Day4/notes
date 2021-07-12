@@ -1,0 +1,94 @@
+JAVASCRIPT :-what is javascript?
+        1. javascript is a client(Browser) side scripting or programming language. 
+        2. It is an Open Source (Free to Access)
+        3. JAvaScript is a Case Sensitive (a,A)
+        4. Interpreted
+
+ USAGE     :-
+        1. To develope the Functionality in giving the solution to the client.
+        2. JAvaScript is used to create / Develope the Functionality which it can be used either in Web Development /Game Development and also  for App Development.
+        3. Excpected instant or immediate Results at Client Side.
+
+Feature Of JAvaScript:-
+        1. DOM(Document Object Model:Data)
+
+Commenting in javascript:-
+        The set of statement which are skipping form the Execution
+        There are two types 
+        1.Single Line Commenting: //
+        2.Multi line Commenting: /*...*/ 
+
+Formating the data in javascript:-
+        working with HTML, CSS and Images
+        All HTML Elements that should be enclosed within either "..." or '...'
+
+Minupulation of Data:-
+        Comparing ,Adding, Exponention, Etc.
+
+Identifier(s):-
+        The name itself is saying that the particular name is used to identify the particular Value 
+        -to declare the identifier there are some set of rule
+                1.The initial / starting character that should be either a - z, A - Z, _  
+                2. From the second characer onwords it can be a- z, A - Z, 0 - 9 , _
+                3.No spaces are Allowed.
+                4.No special symbol are allowed except underscore(_)
+                5.Can be combination of lowercase and Uppercase.
+
+                example:-full name(x), fullname(c), _ANum1(c)
+
+Keyword(s)      :-
+        -the term 'Keyword' can also be called as 'Built-In' (or) 'Reserved' Word.
+        -The javascript developer written the Functionality (or) Functionlists to do some action and to access those function(s), theyb made it easier to access or work with it.
+        --example:-
+        and ,if, switch, async, promise, default, 
+          for more we go to the link(List of a keywords in JAvaScript.)
+
+Different types of Identifier(s):-
+        1. Var
+        --Declaring the identifier with its keyword 'Var'
+        --Can declare the identifier with no value.
+        --Can update the valueof an identifier.
+        --Can redeclare the identifier.
+        --flexible
+
+        2. Let
+        --Declaring the identifier with its keyword 'Let'
+        --Can declare the identifier with no value.
+        --Can update the value of an identifier.
+        --Cannot redeclare the identifier.
+
+        3. Const
+        --Declaring the identifier with its keyword "const" 
+        --Cannot declare the identifier with no value.x
+        --Cannot update the value of an identifier.x
+        --Cannot redeclare the identifier.
+
+Statements:-    
+         There are two type of Statements
+         1.Decision Making Statements
+                --if the condition is true will execute some set of Statements; otherwise some other set of statements
+                --if , if else, nested if else, switch case
+
+         2.Loop Statements
+               -- until the condition get false the set of statements will be executed.
+               --'while', 'do while' and 'for' 
+               --in javascript, the value(s) : 0, null, none,  , false -are consider as false.  
+
+
+Arrays--:-
+         1.the Arrays is a set of values or items of differents Data types.WHich can be hold expreesed updated the items which are under one identifier. 
+         2.Syntax : let identifier= [item1, item2, item3, .........itemn]
+         3. To access the item of the identifier, we use the concept od index.,
+         4. index is a unique digit ,which ranges from 0 to n-1.
+        
+         2.Syntax : let identifier= [item1, item2, item3, .........itemn]  
+         like[0, 1, 2, 3, 4, .....n-1]
+
+function(s):-
+        --The functions is also one the Identifier concept
+        -- Which hold the set of statements under one Block
+        --That block can be accessible  where ever and whenever it is required.
+        --We have write the defination of function.i.e ----Function Defination
+        --But, to access the defination there should be a Call i.e nothing but ---Function Call
+        --The functions will be executed based on Function Call Only.
+

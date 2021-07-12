@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="https://kit.fontawesome.com/f2649fd799.js" crossorigin="anonymous"></script>
+    <script type="text/javascript"></script>
+    <title>Document</title>
+</head>
+<body><div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <script type="text/javascript">
+            //if , if else, nested if else ,switch case
+            let num1=0;
+
+            if(num1){
+                document.write("the value of num1 is valid:"+ num1 +" is valid <br/>");
+            }
+
+            else{
+                document.write("the value of num1 is invalid:" + num1 +"is invalid <br/>");
+            }
+            
+            let name="sumit";
+            if(name!=="sumit"){
+                document.write("the value of a name :"+ name + " is matching with given condition <br/>");
+            }
+            else{
+                document.write("the value of a name :"+ name + " is not matching with given condition <br/>");
+            }
+            
+            let num2=200;
+            if(num2>150){
+                document.write("the value is okay:" +num2+ "and greater<br/>");
+                if(num2==200){
+                    document.write("the value is okay:" +num2+ "and equal <br/>");
+                }
+                else if(num2<150){
+                    document.write("the value is okay:" +num2+ "and smaller<br/>");
+                }
+                
+               
+                else if(num2>160)
+                {
+                    document.write("the value is okay:" +num2+ "and smaller<br/>");
+                }
+            }
+
+            else{
+                document.write("the value is not okay:" +num2+ "not greater<br/>");
+            }
+            
+            //switch case
+            let product="hp";
+                switch(product){
+                    case "dell":
+                        document.write("the value of the product is:" + product +" is matching with 'dell'!<br/>");
+                        break;
+                        case "hp":
+                        document.write("the value of the product is:" + product +" is matching with 'hp'!<br/>");
+                        break;
+                        case "acer":
+                        document.write("the value of the product is:" + product +" is matching with 'dell'!<br/>");
+                        break; 
+                        case "lenevo":
+                        document.write("the value of the product is:" + product +" is matching with 'hp'!<br/>");
+
+                        
+                                       document.write("...........................................................<br/>");
+                    }
+
+
+                    //loop statements
+                    let count=0;
+                    while(count<10){
+                        document.write("the current value of count is :" + count + "!<br/>");
+                        count++
+                    }
+
+                    let count2 = 5;
+                    do {
+                        document.write("the current value of count2 is :" + count2 + "!<br/>");
+                        count2++
+                        
+                    } while(count2<5);
+                    //for loop
+                    for(let count3=2; count3<9; ++count3){
+                        document.write("the current value of count3 is :" + count3 + "!<br/>");
+                    }
+            </script>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+crossorigin="anonymous"></script>
+</body>
+</html>
